@@ -9,7 +9,16 @@ Presentation
 
 ## 発表資料
 
-今後掲載予定
+* [PDF](./slide/why-pdf-copy-paste-garbled-release.pdf)
+* [ソースファイルなど](./slide/)
+
+## テストファイル
+
+発表資料中で使ったファイルです。
+
+* [適当な HTML （文字化けしていない）](./testfile/foobar.html)
+* [Chrome で「PDF に保存」したファイル](./testfile/foobar.html.pdf)
+* [QDF 形式に変換したファイル](./testfile/foobar.html.qdf)
 
 ## License
 

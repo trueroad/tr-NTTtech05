@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                                 
+%%  File: pdfa.xmp   (for pdfx.sty  v1.6)                                      
+%% 
+%%  Copyright (c) 2018, CV Radhakrishnan <cvr@river-valley.org>,
+%%    Han The Thanh <thanh@river-valley.org>,
+%%    Ross Moore <ross.moore@mq.edu.au>,
+%%    Peter Selinger <selinger@mathstat.dal.ca>
+%% 
+%%  This file may be distributed and/or modified under the conditions
+%%  of the LaTeX Project Public License, either version 1.2 of this
+%%  license or (at your option) any later version.  The latest version
+%%  of this license is in:
+%% 
+%%    http://www.latex-project.org/lppl.txt
+%% 
+%%  and version 1.2 or later is part of all distributions of LaTeX
+%%  version 1999/12/01 or later.
+%%
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:14:39">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+%            xmlns:pdf       = "http://ns.adobe.com/pdf/1.3/"
+%            xmlns:pdfaid    = "http://www.aiim.org/pdfa/ns/id/"
+%            xmlns:xmp       = "http://ns.adobe.com/xap/1.0/"
+%            xmlns:dc        = "http://purl.org/dc/elements/1.1/"
+%            xmlns:pdfaExtension = "http://www.aiim.org/pdfa/ns/extension/"
+%            xmlns:pdfaField     = "http://www.aiim.org/pdfa/ns/field#"
+%            xmlns:pdfaProperty  = "http://www.aiim.org/pdfa/ns/property#"
+%            xmlns:pdfaSchema    = "http://www.aiim.org/pdfa/ns/schema#"
+%            xmlns:pdfaType      = "http://www.aiim.org/pdfa/ns/type#"
+  <rdf:Description rdf:about="" 
+   xmlns:pdfaExtension="http://www.aiim.org/pdfa/ns/extension/"
+   xmlns:pdfaSchema="http://www.aiim.org/pdfa/ns/schema#"
+   xmlns:pdfaProperty="http://www.aiim.org/pdfa/ns/property#"
+%%  RRM:  do we really need the following two declarations ?
+%                       xmlns:pdfaType="http://www.aiim.org/pdfa/ns/type#"
+%                       xmlns:pdfaField="http://www.aiim.org/pdfa/ns/field#"
+    >
+   <pdfaExtension:schemas>
+   <rdf:Bag>
+%% begin: Creative Commons metadata
+     <rdf:li rdf:parseType="Resource">
+       <pdfaSchema:namespaceURI>http://creativecommons.org/ns#</pdfaSchema:namespaceURI>
+       <pdfaSchema:prefix>cc</pdfaSchema:prefix>
+       <pdfaSchema:schema>Creative Commons metadata</pdfaSchema:schema>
+       <pdfaSchema:property><rdf:Seq>
+          <rdf:li rdf:parseType="Resource">
+            <pdfaProperty:category>external</pdfaProperty:category>
+            <pdfaProperty:description>A Work has license a License. (a subproperty of dc:license, the same as xhtml:license)</pdfaProperty:description>
+            <pdfaProperty:name>license</pdfaProperty:name>
+            <pdfaProperty:valueType>Text</pdfaProperty:valueType>
+          </rdf:li></rdf:Seq>
+       </pdfaSchema:property>
+   </rdf:li>
+%% end: Creative Commons metadata
+   </rdf:Bag>
+   </pdfaExtension:schemas>
+  </rdf:Description>
+  <rdf:Description rdf:about="" xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+   <pdf:Producer>\xmp@Producer</pdf:Producer>
+\ifx\xmp@@Keywords\@empty\else   <pdf:Keywords>\xmp@@Keywords</pdf:Keywords>\fi
+  </rdf:Description>
+  <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <dc:format>application/pdf</dc:format>
+\ifx\xmp@PublicationType\@empty\else   <dc:type><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@PublicationType>\xmp@PublicationType</rdf:li></rdf:Bag></dc:type>\fi
+\ifx\xmp@Title\@empty\else   <dc:title><rdf:Alt><rdf:li\xmp@strictlang\xmp@lang@Title>\xmp@Title</rdf:li></rdf:Alt></dc:title>\fi
+\ifx\xmp@@Author\@empty\else   <dc:creator><rdf:Seq><rdf:li\xmp@checklang\xmp@lang@Author>\xmp@@Author</rdf:li></rdf:Seq></dc:creator>\fi
+\ifx\xmp@Publisher\@empty\else   <dc:publisher><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Publisher>\xmp@Publisher</rdf:li></rdf:Bag></dc:publisher>\fi
+\ifx\xmp@Language\@empty\else   <dc:language><rdf:Bag><rdf:li>\xmp@Language</rdf:li></rdf:Bag></dc:language>\fi
+\ifx\xmp@Doi\@empty\else   <dc:identifier>doi:\xmp@Doi</dc:identifier>\fi
+\ifx\xmp@ISBN\@empty\else   <dc:identifier>ISBN:\xmp@ISBN</dc:identifier>\fi
+\ifx\xmp@URL\@empty\else   <dc:identifier>URL:\xmp@URL</dc:identifier>\fi
+\ifx\xmp@Copyright\@empty\else   <dc:rights><rdf:Alt><rdf:li\xmp@strictlang\xmp@lang@Copyright>\xmp@@Copyright</rdf:li></rdf:Alt></dc:rights>\fi
+\ifx\xmp@Subject\@empty\else   <dc:description><rdf:Alt><rdf:li\xmp@strictlang\xmp@lang@Subject>\xmp@Subject</rdf:li></rdf:Alt></dc:description>\fi
+\ifx\xmp@Keywords\@empty\else   <dc:subject><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Keywords>\xmp@Keywords</rdf:li></rdf:Bag></dc:subject>\fi
+\ifx\xmp@Source\@empty\else   <dc:source>\xmp@Source</dc:source>\fi
+\ifx\xmp@Coverage\@empty\else   <dc:coverage\xmp@checklang\xmp@lang@Coverage>\xmp@Coverage</dc:coverage>\fi
+\ifx\xmp@Date\@empty\else   <dc:date><rdf:Seq><rdf:li>\xmp@Date</rdf:li></rdf:Seq></dc:date>\fi
+\ifx\xmp@Contributor\@empty\else   <dc:contributor><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Contributor>\xmp@Contributor</rdf:li></rdf:Bag></dc:contributor>\fi
+\ifx\xmp@Relation\@empty\else   <dc:relation><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Relation>\xmp@Relation</rdf:li></rdf:Bag></dc:relation>\fi
+  </rdf:Description>
+  <rdf:Description rdf:about="" xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/">
+   <pdfaid:part>\xmp@Part</pdfaid:part>
+   <pdfaid:conformance>\xmp@Conformance</pdfaid:conformance>
+  </rdf:Description>
+  <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+   <xmp:CreatorTool>\xmp@CreatorTool</xmp:CreatorTool>
+   <xmp:ModifyDate>\xmp@convDate</xmp:ModifyDate>
+   <xmp:CreateDate>\xmp@convDate</xmp:CreateDate>
+   <xmp:MetadataDate>\xmp@convDate</xmp:MetadataDate>
+\ifx\xmp@Advisory\@empty\else   <xmp:Advisory><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Advisory>\xmp@Advisory</rdf:li></rdf:Bag></xmp:Advisory>\fi
+\ifx\xmp@BaseURL\@empty\else   <xmp:BaseURL>\xmp@BaseURL</xmp:BaseURL>\fi
+\ifx\xmp@Identifier\@empty\else   <xmp:Identifier><rdf:Bag><rdf:li\xmp@checklang\xmp@lang@Identifier>\xmp@Identifier</rdf:li></rdf:Bag></xmp:Identifier>\fi
+\ifx\xmp@Nickname\@empty\else   <xmp:Nickname\xmp@checklang\xmp@lang@Nickname>\xmp@Nickname</xmp:Nickname>\fi
+\ifx\xmp@Thumbnails\@empty\else   <xmp:Thumbnails><rdf:Alt><rdf:li>\xmp@Thumbnails</rdf:li></rdf:Alt></xmp:Thumbnails>\fi
+  </rdf:Description>
+  <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/">
+   <xmpMM:DocumentID>uuid:\xmp@docid</xmpMM:DocumentID>
+   <xmpMM:InstanceID>uuid:\xmp@instid</xmpMM:InstanceID>
+  </rdf:Description>
+%% begin: from `CC_Attribution-ShareAlike_4.0_International.xmp`
+    <rdf:Description rdf:about=''
+		     xmlns:xapRights='http://ns.adobe.com/xap/1.0/rights/'>
+      <xapRights:Marked>True</xapRights:Marked>
+    </rdf:Description>
+    <rdf:Description rdf:about=''
+		     xmlns:xapRights='http://ns.adobe.com/xap/1.0/rights/'
+		     >
+      <xapRights:UsageTerms>
+	<rdf:Alt>
+	  <rdf:li xml:lang='x-default' >この 作品 は &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス&lt;/a&gt;の下に提供されています。</rdf:li>
+	  <rdf:li xml:lang='ja' >この 作品 は &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス&lt;/a&gt;の下に提供されています。</rdf:li>
+	  <rdf:li xml:lang='en' >This work is licensed under a &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;.</rdf:li>
+	  </rdf:Alt>
+      </xapRights:UsageTerms>
+    </rdf:Description>
+    <rdf:Description rdf:about=''
+      xmlns:cc='http://creativecommons.org/ns#'>
+      <cc:license rdf:resource='http://creativecommons.org/licenses/by-sa/4.0/'/>
+    </rdf:Description>
+%% end: from `CC_Attribution-ShareAlike_4.0_International.xmp`
+%% start: xapRights
+\ifx\xmp@CopyrightURL\@empty\else  <rdf:Description rdf:about="" xmlns:xapRights = "http://ns.adobe.com/xap/1.0/rights/">^^J   <xapRights:WebStatement>\xmp@CopyrightURL</xapRights:WebStatement>^^J  </rdf:Description>\fi
+%% end: xapRights
+ </rdf:RDF>
+</x:xmpmeta>
+%%
+%% End of pdfa.xmp
+%%
+%%
+

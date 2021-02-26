@@ -9,6 +9,7 @@ Presentation
 
 ## 発表資料
 
+* [slideshare](https://www.slideshare.net/trueroad_jp/pdfcidgid)
 * [PDF](./slide/why-pdf-copy-paste-garbled-release.pdf)
 * [ソースファイルなど](./slide/)
 

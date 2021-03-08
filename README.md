@@ -13,6 +13,10 @@ Presentation
 * [PDF](./slide/why-pdf-copy-paste-garbled-release.pdf)
 * [ソースファイルなど](./slide/)
 
+## アーカイブ動画
+
+* [アーカイブ動画](https://www.youtube.com/watch?v=y5AQbo8tMlE&t=2222s)
+
 ## テストファイル
 
 発表資料中で使ったファイルです。

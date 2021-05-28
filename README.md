@@ -32,11 +32,40 @@ Presentation
 
 ## テストファイル
 
+### HTML
+
 発表資料中で使ったファイルです。
 
 * [適当な HTML （文字化けしていない）](./testfile/foobar.html)
+
+### Chrome 88
+
+発表資料中で使ったファイルで、2021 年 2 月 26 日当時のものです。
+PDF からコピペすると康熙部首の文字化けが発生します。
+
 * [Chrome 88 で「PDF に保存」したファイル](./testfile/foobar.html.pdf)
 * [QDF 形式に変換したファイル](./testfile/foobar.html.qdf)
+
+### Chrome 90
+
+2021 年 5 月 25 日までの最新版だった Chrome 90 でも文字化けしました。
+
+* [Chrome 90 で「PDF に保存」したファイル](./testfile/90/foobar.html.pdf)
+* [QDF 形式に変換したファイル](./testfile/90/foobar.html.qdf)
+
+### Chrome 91
+
+2021 年 5 月 26 日リリースの Chrome 91 では文字化けしなくなりました。
+
+* [Chrome 91 で「PDF に保存」したファイル](./testfile/91/foobar.html.pdf)
+* [QDF 形式に変換したファイル](./testfile/91/foobar.html.qdf)
+
+ただし、ToUnicode CMap は康熙部首の文字化けが発生する
+Chrome 88 や Chrome 90 と同じ状態になっています。
+[それでは化けてしまうグリフだけに /ActualText で
+CJK 統合漢字のコードポイントを付与する
+](https://twitter.com/trueroad_jp/status/1397392977736073217)
+ことで文字化けしないようにしているようです。
 
 ## License
 
